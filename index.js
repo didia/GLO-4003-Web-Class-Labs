@@ -58,7 +58,7 @@ function getPreviousIndex() {
 function showFigureAtIndex(index) {
     figures[index].classList.add("active");
     if( index < directButtons.length ) {
-        directButtons[index].classList.add("active")
+        directButtons[index].classList.add("active");
     }
 }
 
@@ -76,8 +76,8 @@ function showNext() {
 }
 
 function getNextIndex() {
-    currentFigureShownIndex  = ( currentFigureShownIndex + 1 ) % numberOfFigures
-    return currentFigureShownIndex
+    currentFigureShownIndex  = ( currentFigureShownIndex + 1 ) % numberOfFigures;
+    return currentFigureShownIndex;
 }
 
 function attachShowAtIndexHandler() {
