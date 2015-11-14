@@ -1,83 +1,47 @@
 body {
     width: 100%;
     padding: 2%;
+    font-size: 14px;
 }
 
-.post-it-new textarea {
-    height: 80%
-}
-
-.post-it-new {
+.meteo-card {
     width: 100%;
-    height: 100px;
-    min-height: 100px;
+    margin: auto;
 }
 
-.actions {
-    text-align: right;
-    padding: 4px;
-    padding-bottom: 12px;
+.meteo-card-header {
+    background-color: deepskyblue;
 }
 
-.task-content {
-    min-height: 45%;
+.meteo-card-header img {
+    margin-right: 10px;
 }
-.task-content textarea {
-    width: 100%
-}
-.real-content, .editable-content {
-    height: 70%;
-}
-.editable-content {
-    display:none;
-}
-.on-edit {
-    display:none;
-}
-#content {
+.meteo-forecast-day {
+    float: left;
+    margin-right: 5%;
     text-align: center;
-}
-#content .actions {
-    position: relative;
-    bottom: 2px;
+    margin-top: 3%;
 }
 
-#content>div {
-    display: inline-block;
-    width: 300px;
-    height: 200px;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}
-#content p {
-    padding: 2%;
-}
-#content p, #content textarea {
-    text-align: left;
-    width: 100%;
-}
-#content div:last-child {
-    margin-right: 0;
-}
-#search-card{
-    padding-top: 5%;
-    text-align: center;
+.meteo-forecast-day-label {
+    font-weight: bold;
 }
 
-#search-card > div {
+.meteo-forecast-week {
+    padding-left: 5%;
     width: 100%;
-    padding: 2%;
 }
-#search-card .alert {
-    display: none;
-}
-#search-id {
-    width: 100%;
-    margin-bottom: 2%;
-    text-align: right;
-}
-#search-card input {
-    display:block;
-    width: 100%
 
+.meteo-forecast-day img {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.meteo-forecast-day .meteo-day-high {
+    float: left;
+    font-weight: bold;
+}
+
+.meteo-forecast-day .meteo-day-low {
+    float: right;
 }
